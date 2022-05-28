@@ -5,8 +5,8 @@
 
 
 def find_anagram(word, anagram):
-    str1 = "Came"
-    str2 = "Dame"
+    str1 = "hello"
+    str2 = "check"
 
     str1 = str1.lower()
     str2 = str2.lower()
@@ -21,4 +21,4 @@ def find_anagram(word, anagram):
     else:
         return False
 
-print(find_anagram('came' , 'dame'))
+print(find_anagram('hello' , 'check'))
